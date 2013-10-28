@@ -1,0 +1,5 @@
+de/joerghoh/cq5/healthcheck/impl/providers/MBeanStatusProvider.class
+de/joerghoh/cq5/healthcheck/impl/providers/jcr/JcrObservationDelayProvider$ObservationTrigger.class
+de/joerghoh/cq5/healthcheck/impl/HealthStatusServiceImpl.class
+de/joerghoh/cq5/healthcheck/impl/providers/jcr/JcrObservationDelayProvider.class
+de/joerghoh/cq5/healthcheck/impl/LoadbalancerStatus.class

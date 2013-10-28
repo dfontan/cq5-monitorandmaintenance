@@ -1,0 +1,8 @@
+de/joerghoh/cq5/jmx/osgi/OsgiEventCounter.class
+de/joerghoh/cq5/jmx/bundles/BundleStatusMBean.class
+de/joerghoh/cq5/jmx/requests/RequestInformationImpl.class
+de/joerghoh/cq5/jmx/requests/RequestInformationMBean.class
+de/joerghoh/cq5/jmx/requests/RequestFilter.class
+de/joerghoh/cq5/jmx/requests/RequestSummaryServlet.class
+de/joerghoh/cq5/jmx/osgi/OsgiEventCounterMBean.class
+de/joerghoh/cq5/jmx/bundles/BundleStatusImpl.class

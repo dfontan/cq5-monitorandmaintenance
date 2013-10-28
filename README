@@ -1,0 +1,6 @@
+CQ5 
+  Project to add more project specific features on top of Joerg Hoh's CQ5-healthcheck application
+
+  - Refactor app to remove specific configurations
+  - Add System configurations for Garbage Collection Scheduler & Workflow Purge Scheduler
+  
