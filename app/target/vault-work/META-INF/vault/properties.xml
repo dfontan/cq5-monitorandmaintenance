@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>CQ5 - Health Check - Application Package</comment>
+<entry key="createdBy">nagavara</entry>
+<entry key="name">cq5-healthcheck</entry>
+<entry key="acHandling">overwrite</entry>
+<entry key="created">2013-11-05T12:01:56.470-0800</entry>
+<entry key="groupId">de.joerghoh.cq5.healthcheck</entry>
+<entry key="version">1.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="description">CQ5 application package containing all components of the Health Check application.</entry>
+<entry key="group">Healthcheck</entry>
+<entry key="artifactId">app</entry>
+<entry key="path">/etc/packages/Healthcheck/cq5-healthcheck.zip</entry>
+</properties>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" immediate="true" name="de.joerghoh.cq5.jmx.bundles.BundleStatusImpl" activate="activate">
+        <implementation class="de.joerghoh.cq5.jmx.bundles.BundleStatusImpl"/>
+        <service servicefactory="false">
+            <provide interface="de.joerghoh.cq5.jmx.bundles.BundleStatusMBean"/>
+        </service>
+        <property name="jmx.objectname" type="String" value="de.joerghoh.cq5.jmx:id=bundles"/>
+        <property name="ignoredBundles"/>
+        <property name="service.pid" value="de.joerghoh.cq5.jmx.bundles.BundleStatusImpl"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="de.joerghoh.cq5.jmx.osgi.OsgiEventCounter">
+        <implementation class="de.joerghoh.cq5.jmx.osgi.OsgiEventCounter"/>
+        <service servicefactory="false">
+            <provide interface="de.joerghoh.cq5.jmx.osgi.OsgiEventCounterMBean"/>
+            <provide interface="org.osgi.service.event.EventHandler"/>
+        </service>
+        <property name="jmx.objectname" type="String" value="de.joerghoh.cq5.jmx.osgi:id=OsgiEventCounter"/>
+        <property name="event.topics" type="String">
+            org/apache/sling/*
+            com/day/*
+            org/osgi/framework/*
+        </property>
+        <property name="service.pid" value="de.joerghoh.cq5.jmx.osgi.OsgiEventCounter"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="de.joerghoh.cq5.jmx.requests.RequestFilter" activate="activate" deactivate="deactivate">
+        <implementation class="de.joerghoh.cq5.jmx.requests.RequestFilter"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Filter"/>
+        </service>
+        <property name="sling.filter.scope" type="String" value="request"/>
+        <property name="service.pid" value="de.joerghoh.cq5.jmx.requests.RequestFilter"/>
+    </scr:component>
+    <scr:component enabled="true" name="de.joerghoh.cq5.jmx.requests.RequestSummaryServlet">
+        <implementation class="de.joerghoh.cq5.jmx.requests.RequestSummaryServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+            <provide interface="javax.servlet.ServletConfig"/>
+            <provide interface="java.io.Serializable"/>
+        </service>
+        <property name="sling.servlet.methods" type="String" value="GET"/>
+        <property name="sling.servlet.selectors" type="String" value="json"/>
+        <property name="sling.servlet.resourceTypes" type="String" value="healthcheck/servlet/requestinfo"/>
+        <property name="service.pid" value="de.joerghoh.cq5.jmx.requests.RequestSummaryServlet"/>
+    </scr:component>
+</components>

@@ -1,0 +1,4 @@
+/Users/nagavara/Documents/Adobe/Install/projects/cq5-monitorandmaintenance/core/src/main/java/de/joerghoh/cq5/healthcheck/impl/LoadbalancerStatus.java
+/Users/nagavara/Documents/Adobe/Install/projects/cq5-monitorandmaintenance/core/src/main/java/de/joerghoh/cq5/healthcheck/impl/providers/jcr/JcrObservationDelayProvider.java
+/Users/nagavara/Documents/Adobe/Install/projects/cq5-monitorandmaintenance/core/src/main/java/de/joerghoh/cq5/healthcheck/impl/providers/MBeanStatusProvider.java
+/Users/nagavara/Documents/Adobe/Install/projects/cq5-monitorandmaintenance/core/src/main/java/de/joerghoh/cq5/healthcheck/impl/HealthStatusServiceImpl.java
