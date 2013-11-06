@@ -15,7 +15,7 @@ Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Jörg Hoh
 Build-Jdk: 1.7.0_45
 Bundle-Version: 1.0.1.SNAPSHOT
-Bnd-LastModified: 1383681715961
+Bnd-LastModified: 1383697803870
 Bundle-ManifestVersion: 2
 Bundle-Description: Contains JMX extensions for the Health Check proje
  ct

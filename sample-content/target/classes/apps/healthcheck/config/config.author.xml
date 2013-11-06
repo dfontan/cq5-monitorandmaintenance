@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OsgiConfig">
+    <replication jcr:primaryType="nt:folder">
+        <de.joerghoh.cq5.healthcheck.impl.providers.MBeanStatusProvider-publish_critical.config
+            jcr:primaryType="sling:OsgiConfig"
+            mbean.name="com.adobe.granite.replication:type=agent,id=&quot;publish&quot;"
+            mbean.property="QueueNumEntries.critical.>.500"
+            mbean.providerHint="Critical queue length"
+            provider.category="replication"/>
+        <de.joerghoh.cq5.healthcheck.impl.providers.MBeanStatusProvider-publish_warn.config
+            jcr:primaryType="sling:OsgiConfig"
+            mbean.name="com.adobe.granite.replication:type=agent,id=&quot;publish&quot;"
+            mbean.property="QueueNumEntries.warn.>.100"
+            mbean.providerHint="Warn queue length"
+            provider.category="replication"/>
+    </replication>
+</jcr:root>

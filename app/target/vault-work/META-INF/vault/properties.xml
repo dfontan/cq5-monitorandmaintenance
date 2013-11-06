@@ -5,7 +5,7 @@
 <entry key="createdBy">nagavara</entry>
 <entry key="name">cq5-healthcheck</entry>
 <entry key="acHandling">overwrite</entry>
-<entry key="created">2013-11-05T12:01:56.470-0800</entry>
+<entry key="created">2013-11-05T16:30:04.377-0800</entry>
 <entry key="groupId">de.joerghoh.cq5.healthcheck</entry>
 <entry key="version">1.0.1-SNAPSHOT</entry>
 <entry key="requiresRoot">false</entry>

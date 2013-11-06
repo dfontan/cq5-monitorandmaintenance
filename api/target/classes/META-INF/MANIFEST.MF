@@ -8,7 +8,7 @@ Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Jörg Hoh
 Build-Jdk: 1.7.0_45
 Bundle-Version: 1.0.1.SNAPSHOT
-Bnd-LastModified: 1383681714118
+Bnd-LastModified: 1383697802016
 Bundle-ManifestVersion: 2
 Bundle-Description: API of the Health Check project
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
